@@ -1,0 +1,144 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  background-color: #9fe8f3;
+}
+
+.todo-container {
+  display: flex;
+  padding: 10px;
+  width: 100%;
+  justify-content: space-between;
+ 
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.todo-content {
+  display: flex;
+  background-color: aliceblue;
+  padding: 10px;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom:15px;
+ 
+}
+
+.todoText {
+  font-size: 18px;
+  text-align: left;
+  width: 100%;
+  margin-left:15px;
+}
+.input-field {
+  width: 1000px;
+  padding: 10px;
+  border: 2px solid #000;
+  margin-right: 120px;
+  border-radius: 5px;
+  font-size: 16px;
+  border: transparent;
+  display: inline-flex;
+  
+}
+
+.add-button {
+
+  width: 100px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left:0px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.editbutton {
+  width: 100px;
+  padding: 5px;
+  margin-top: 5px;
+  font-size: 18px;
+  background-color: #afc4ef;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 4px;
+}
+
+.editbutton:hover {
+  color: #007bff; /* Optional hover color */
+}
+
+.deletebutton {
+  width: 100px;
+  padding: 5px;
+  margin-top: 5px;
+  font-size: 18px;
+  background-color: #afc4ef;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 4px;
+}
+
+.deletebutton:hover {
+  color: #007bff; /* Optional hover color */
+}
+
+.savebutton {
+  width: 100px;
+  padding: 5px;
+  margin-top: 5px;
+  background-color: #afc4ef;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+ 
+}
+
+.cancelbutton {
+  width: 100px;
+  padding: 5px;
+  margin-top: 5px;
+  margin-left: 10px;
+  background-color: #afc4ef;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-input {
+  width:300px;
+}
+
+.completed {
+  text-decoration: line-through;
+ 
+}
+
+.filter-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filter-buttons button {
+  padding: 6px 12px;
+  border: none;
+  background-color: #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.filter-buttons .active {
+  background-color: #6990b9;
+  color: white;
+}
