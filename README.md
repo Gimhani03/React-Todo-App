@@ -12,10 +12,6 @@ A simple and elegant Todo application built with React. This project allows user
 - Persistent state with browser local storage (if implemented)
 - Built with functional React components and hooks
 
-## Demo
-
-![Todo App Screenshot](./screenshot.png)  
-*Replace the above image with your own screenshot if available.*
 
 ## Getting Started
 
